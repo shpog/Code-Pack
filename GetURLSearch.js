@@ -1,4 +1,4 @@
-function getURLSearch(){
+function GetURLSearch(){
 	if(window.location.search == '')
 		return undefined
 	let q = window.location.search.replace('?','')
